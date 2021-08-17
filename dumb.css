@@ -1,0 +1,21 @@
+body{
+    background:linear-gradient(rgb(255, 168, 168), rgb(255, 231, 165), rgb(249, 255, 172) );
+    color: black;
+
+}
+
+#instructions{
+    color: rgb(88, 0, 0);
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#textbox{
+    background-color: rgb(238, 255, 161);
+}
+
+#hear {
+    width:100px;
+    height: 100px;
+    margin-top: 10px;
+}

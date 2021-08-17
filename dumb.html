@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Text recognition</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    
+       <link rel="stylesheet" href="dumb.css">
+      
+      </head>
+
+      <body>
+          <div class="container">
+              <center>
+                <h1 style="font-family: Georgia, 'Times New Roman', Times, serif;">Listening App </h1>
+                  <img id="hear" src="typing.png">
+                  <br><br>
+                  <h4 id="instructions"> This app is for people who can't read. Whatever you type, the computer will repeat out loud.</h4>
+              <div class="form-group">
+                  <h3 style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 500;"> Type here: </h3>
+                  <textarea class="form-control" id="text"></textarea>
+              </div>
+              <button class="btn btn-danger" onclick="typeButton()"> Type Now! </button>
+                </center>
+          </div>
+      </body>
+      <script src="dumb.js"></script>
+</html>
