@@ -49,3 +49,7 @@ function save(){
     link.href = image;
     link.click();
 }
+
+function back(){
+    window.location = "home.html";
+}

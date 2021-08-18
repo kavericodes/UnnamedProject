@@ -20,3 +20,7 @@ function speak(){
     var utterThis = new SpeechSynthesisUtterance(speak_data);
     synth.speak(utterThis);
 }
+
+function back(){
+    window.location = "home.html";
+}
